@@ -1,0 +1,75 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20407d;
+    color: white;
+    padding: 7px 30px;
+}
+.navBar .leftNav{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.navBar .rightNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar .rightNav li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.rightNav .link{
+    list-style: none;
+    margin: 0px 20px;
+    background-color: rgb(4, 111, 219);
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: .85rem;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+.leftNav img{
+    height: 40px;
+}
+@media (max-width: 390px){
+    .navBar .leftNav{
+        font-size: .9rem;
+    }
+}
+@media (max-width: 500px){
+    .navBar .link{
+        list-style: none;
+        margin: 0px 10px;
+        font-weight: 600;
+        font-size: .8rem;
+        cursor: pointer;
+        padding: 9px 15px;
+        border-radius: 6px;
+    }
+}
+@media (max-width: 435px){
+    .navBar .link{
+        margin: 0px 10px;
+        font-size: .67rem;
+        cursor: pointer;
+        padding: 9px 13px;
+        border-radius: 6px;
+    }
+}
+@media (max-width: 380px){
+    .navBar .link{
+        margin: 0px 8px;
+        font-size: .6rem;
+        cursor: pointer;
+        padding: 9px 13px;
+        border-radius: 6px;
+    }
+}

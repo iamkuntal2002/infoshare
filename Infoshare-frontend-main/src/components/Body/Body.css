@@ -1,0 +1,141 @@
+.rooms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    margin-bottom: 30px;
+}
+
+.cards-container{
+    margin: 15px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-container .body-heading{
+    font-weight: 800;
+    font-size: 1.6rem;
+    text-align: center;
+    color: rgb(4, 111, 219);
+    margin-top: 25px;
+}
+.body-container .body-description{
+    list-style: none;
+}
+.body-container .body-description li{   
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.body-container .body-description li span{
+    margin-left: 10px;
+}
+.rooms .link:hover{
+    transform: scale(1.1);
+}
+.point{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.rooms .link{
+    list-style: none;
+    margin: 0px 20px;
+    background-color: rgb(4, 111, 219);
+    color: white;
+    font-weight: 600;
+    font-size: .9rem;
+    cursor: pointer;
+    padding: 13px 20px;
+    border-radius: 6px;
+}
+.body-desc-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+.body-desc-img .body-img img{
+    height: 300px;
+}
+.body-img{
+    margin-right: 40px;
+}
+@media (max-width: 760px){
+    .body-desc-img{
+        flex-direction: column;
+    }
+    .body-img{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 500px){
+    .rooms .link{
+        list-style: none;
+        margin: 0px 10px;
+        font-weight: 600;
+        font-size: .8rem;
+        cursor: pointer;
+        padding: 13px 20px;
+        border-radius: 6px;
+    }
+    .rooms .link{
+        font-size: 1rem;
+        cursor: pointer;
+        padding: 13px 15px;
+        
+    }
+}
+@media (max-width: 435px){
+    .rooms .link{
+        margin: 0px 10px;
+        font-size: .77rem;
+        cursor: pointer;
+        padding: 13px 20px;
+        border-radius: 6px;
+        font-weight: 600;
+    }
+    .body-container .body-heading{
+        font-size: 1.5rem;
+    }
+    .body-container .body-description li span{
+        font-size: .9rem;
+    }
+}
+@media (max-width: 380px){
+    .rooms .link{
+        margin: 0px 10px;
+        font-size: .75rem;
+        cursor: pointer;
+        padding: 15px 20px;
+        border-radius: 6px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 815px){
+    .cards-container{
+        width: 780px;
+    }
+}
+@media (max-width: 785px){
+    .cards-container{
+        margin: 20px 0px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

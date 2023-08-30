@@ -1,0 +1,21 @@
+.room-button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.room-button-box button{
+    padding: 22px 34px;
+    /* background-color: #5a4bda; */
+    background-color: rgb(4, 111, 219);
+    color: white;
+    border: 0px;
+    border-radius: 6px;
+    margin: 20px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.room-button-box button:hover{
+    transform: scale(1.1);
+}
